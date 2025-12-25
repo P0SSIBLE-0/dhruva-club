@@ -37,7 +37,7 @@ const Event = () => {
             <div className="container mx-auto px-4 md:px-24 mb-32 space-y-32">
                 {/* Event #1: Dark Matter */}
                 <div className="relative">
-                    <div className="absolute -right-4 top-0 md:-right-10 text-xl font-bold text-gray-400"># 1</div>
+                    <div className="absolute -right-4 -top-10 md:-right-10 text-xl font-bold text-gray-400"># 1</div>
 
                     {/* Background Image Container */}
                     <div className="w-full md:w-[70%] h-[400px] md:h-[500px] relative overflow-hidden">
@@ -70,7 +70,7 @@ const Event = () => {
 
                 {/* Event #2: Astronauts */}
                 <div className="relative flex flex-col md:flex-row justify-end">
-                    <div className="absolute -left-4 top-0 md:-left-10 text-xl font-bold text-gray-400"># 2</div>
+                    <div className="absolute -left-4 -top-10 md:-left-10 text-xl font-bold text-gray-400"># 2</div>
 
                     {/* Background Image Container */}
                     <div className="w-full md:w-[70%] h-[400px] md:h-[500px] relative overflow-hidden">

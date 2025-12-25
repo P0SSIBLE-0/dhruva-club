@@ -81,7 +81,7 @@ const EventsCarousel = () => {
                 </Swiper>
 
                 {/* Custom Navigation & Pagination Container */}
-                <div className="flex items-center justify-center gap-8 mt-4 absolute bottom-10 lg:bottom-20 left-1/2 transform -translate-x-1/2">
+                <div className="flex z-10 items-center justify-center gap-8 mt-4 absolute bottom-10 lg:bottom-20 left-1/2 transform -translate-x-1/2">
                     <button className="custom-prev text-white hover:text-gray-300 transition-colors cursor-pointer">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5" /><path d="M12 19l-7-7 7-7" /></svg>
                     </button>
