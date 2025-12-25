@@ -81,13 +81,13 @@ const EventsCarousel = () => {
                 </Swiper>
 
                 {/* Custom Navigation & Pagination Container */}
-                <div className="flex items-center justify-center gap-8 mt-4 absolute bottom-20 left-1/2 transform -translate-x-1/2">
+                <div className="flex items-center justify-center gap-8 mt-4 absolute bottom-10 lg:bottom-20 left-1/2 transform -translate-x-1/2">
                     <button className="custom-prev text-white hover:text-gray-300 transition-colors cursor-pointer">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5" /><path d="M12 19l-7-7 7-7" /></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5" /><path d="M12 19l-7-7 7-7" /></svg>
                     </button>
                     <div className="custom-pagination flex gap-2 w-auto!"></div>
                     <button className="custom-next text-white hover:text-gray-300 transition-colors cursor-pointer">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14" /><path d="M12 5l7 7-7 7" /></svg>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14" /><path d="M12 5l7 7-7 7" /></svg>
                     </button>
                 </div>
 
@@ -97,7 +97,7 @@ const EventsCarousel = () => {
                     opacity: 0.3;
                     width: 8px;
                     height: 8px;
-                    margin: 0 6px !important;
+                    margin: 0 4px !important;
                 }
                 .swiper-pagination-bullet-active {
                     opacity: 1;
